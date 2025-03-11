@@ -1,0 +1,150 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: black;
+}
+
+.container1 {
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  background-color: rgb(0 0 0) !important;
+  color: white;
+}
+
+/* Navbar.jsx */
+.navbar {
+  padding: 0 0 0 0 !important;
+}
+
+.container1-nav a.nav1 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.container1-nav a.nav1 span.text-white {
+  font-size: 1.7rem;
+  color: rgb(0, 0, 0) !important;
+}
+
+.container1-nav a.nav1 span.text-white:hover {
+  text-shadow: 0 0 20px #ae93ff;
+}
+
+.container1-nav a.nav1:hover {
+  color: white;
+}
+
+.container1-nav a.nav1 img {
+  background: linear-gradient(0deg, #A47CF3, #683FEA);
+  border-radius: 5px;
+  margin: 0px 10px;
+  position: relative;
+  bottom: 2px;
+}
+
+.container1-nav a.nav1 img:hover {
+  background: linear-gradient(0deg, #A47CF3, #683FEA);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px rgba(0, 0, 0, 0),
+    0px 0px 20px 0px #9917FF;
+}
+
+.container1-nav a.nav1 img:hover .text {
+  color: white;
+}
+
+.container1-nav a.nav1 img:hover .sparkle {
+  fill: white;
+  transform: scale(1.2);
+}
+
+.container1-nav {
+  background: linear-gradient(180deg, #ffffff, #e6e6e6);
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  color: black;
+}
+
+.container1-nav:hover {
+  box-shadow: 0px 0px 10px;
+
+}
+
+/* Button1.jsx */
+.sc-FEMpB {
+  width: 12rem;
+}
+
+div.relative {
+  margin-top: 20px;
+}
+
+a.group {
+  padding: 10px !important;
+  text-decoration: none !important;
+}
+
+/* Button3.jsx */
+.sc-gjcoXW {
+  margin: 10px 0px;
+}
+
+.btn1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* TextForm.jsx */
+.mb-3 {
+  padding: 10px !important;
+  margin: 0 !important;
+}
+
+.container1-textform {
+  width: 90%;
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255) !important;
+  color: black;
+}
+.form-label{
+  margin-top: 10px;
+}
+
+/* Dark Mode Styles */
+body.dark-theme {
+  background-color: black;
+  color: white;
+
+  .container1-textform {
+    width: 90%;
+    margin-top: 10px;
+    background-color: rgb(0 0 0) !important;
+    color: white;
+  }
+  .container1-nav{
+  background: linear-gradient(180deg, #000000, #252424);
+    box-shadow: 1px 0px 10px;
+  }
+  .container1-nav a.nav1 span.text-white {
+    color: white !important;
+    font-size: 1.7rem;
+  }
+  .form-control{
+    background-color: #000000;
+    color: #ffffff;
+  }
+}
