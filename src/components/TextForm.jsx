@@ -36,7 +36,7 @@ function Textform(props) {
                 <div className="mb-3">
                     <h4 className="form-label">Text-Summary:</h4>            
                     <span>{text.length} : Alphabet</span><br />
-                    <span>{text.split(" ").filter((e1) => { return e1.length != 0 }).length} : Words</span> <br />
+                    <span>{text.split(" ").filter((e1) => { return e1.length !== 0 }).length} : Words</span> <br />
                     <h4 className="form-label">Preview:</h4> 
                     <p>{text.length > 0 ? text:"Enter Something to Preview:"}</p>
                 </div>

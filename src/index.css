@@ -124,6 +124,10 @@ a.group {
   margin-top: 10px;
 }
 
+.sc-FEMpB {
+  width: auto !important;
+}
+
 /* Dark Mode Styles */
 body.dark-theme {
   background-color: black;
