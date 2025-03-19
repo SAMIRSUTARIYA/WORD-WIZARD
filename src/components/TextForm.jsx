@@ -21,6 +21,14 @@ function Textform(props) {
     const handleclrClick = () => {
         settext("")
     }
+
+    const handlecopyClick = () =>{
+        let copytxt = document.getElementById("exampleFormControlTextarea1");
+        copytxt.select()
+        document.execCommand("copy");
+
+    }
+
     return (
         <div>
             <div className="container1-textform container-fluid bg-light">
@@ -31,6 +39,7 @@ function Textform(props) {
                         <Button3 title="Convert to Upper-case" onClick={handleUpClick} />
                         <Button3 title="Convert to Lower-case" onClick={handleLowClick} />
                         <Button3 title="Clear-Text" onClick={handleclrClick} />
+                        <Button3 title="Copy-Text" onClick={handlecopyClick} />
                     </div>
                 </div>
                 <div className="mb-3">
