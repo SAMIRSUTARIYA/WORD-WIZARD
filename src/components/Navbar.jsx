@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Button2 from './Button2'
+import Mode_btn from './Mode_btn'
 
 function Navbar(props) {
   return (
@@ -10,7 +10,7 @@ function Navbar(props) {
           <img src="/src/assets/logo2.png" alt="Logo" width="45" height="50" className="d-inline-block align-text-top" />
           <span className="text-white">{props.title}</span>
         </a>
-        <Button2 />
+        <Mode_btn />
       </div>
     </nav>
   )

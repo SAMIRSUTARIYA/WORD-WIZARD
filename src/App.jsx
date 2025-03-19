@@ -2,7 +2,6 @@ import React from 'react'
 import NavBar from './components/Navbar'
 import Textform from './components/Textform'
 
-
 function App() {
   return (
     <>

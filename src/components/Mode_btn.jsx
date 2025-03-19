@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
-const Button2 = () => {
+const Mode_btn = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   const handleToggle = () => {
@@ -103,4 +103,4 @@ const StyledWrapper = styled.div`
     color: #cecece;
   }`;
 
-export default Button2;
+export default Mode_btn;

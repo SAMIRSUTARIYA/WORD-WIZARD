@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Button3 = (props) => {
+const Button = (props) => {
   return (
     <StyledWrapper>
         <button className="button" onClick={props.onClick}>
@@ -67,4 +67,4 @@ const StyledWrapper = styled.div`
     transform: scale(1);
   }`;
 
-export default Button3;
+export default Button;

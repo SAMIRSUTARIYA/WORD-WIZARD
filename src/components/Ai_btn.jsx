@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types'
 
-const Button = (props) => {
+const Ai_btn = (props) => {
   return (
     <div>
       <div className="container1 container-fluid">
@@ -63,4 +63,4 @@ const StyledWrapper = styled.div`
     fill: white;
     transform: scale(1.2);
   }`;
-export default Button;
+export default Ai_btn;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Button3 from './Button3'
+import Button from './Button'
 
 function Textform(props) {
     const [text, settext] = useState("")
@@ -36,10 +36,10 @@ function Textform(props) {
                     <h4 className="form-label">{props.heading}</h4>
                     <textarea className="form-control" id="exampleFormControlTextarea1" value={text} onChange={handleOnChange} rows="3"></textarea>
                     <div className='btn1'>
-                        <Button3 title="Convert to Upper-case" onClick={handleUpClick} />
-                        <Button3 title="Convert to Lower-case" onClick={handleLowClick} />
-                        <Button3 title="Clear-Text" onClick={handleclrClick} />
-                        <Button3 title="Copy-Text" onClick={handlecopyClick} />
+                        <Button title="Convert to Upper-case" onClick={handleUpClick} />
+                        <Button title="Convert to Lower-case" onClick={handleLowClick} />
+                        <Button title="Clear-Text" onClick={handleclrClick} />
+                        <Button title="Copy-Text" onClick={handlecopyClick} />
                     </div>
                 </div>
                 <div className="mb-3">
