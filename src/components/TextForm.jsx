@@ -26,9 +26,12 @@ function Textform(props) {
         let copytxt = document.getElementById("exampleFormControlTextarea1");
         copytxt.select()
         document.execCommand("copy");
-
     }
-
+    const handleExtraspace = () =>{
+        let textarea = document.getElementById("exampleFormControlTextarea1");
+        let cleanedText = textarea.value.trim().replace(/\s+/g, ' ');
+        settext(cleanedText)
+    }
     return (
         <div>
             <div className="container1-textform container-fluid bg-light">
@@ -40,6 +43,7 @@ function Textform(props) {
                         <Button title="Convert to Lower-case" onClick={handleLowClick} />
                         <Button title="Clear-Text" onClick={handleclrClick} />
                         <Button title="Copy-Text" onClick={handlecopyClick} />
+                        <Button title="Remove-Extra Space" onClick={handleExtraspace} />
                     </div>
                 </div>
                 <div className="mb-3">
